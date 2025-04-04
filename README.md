@@ -21,7 +21,7 @@ OrbitToken is an decentralized platform that allow users to create custom tokens
 To clone the repository locally, use the following commands:
 
 ```bash
-git clone https://github.com/your-username/OrbitToken.git 
+git clone https://github.com/chetanchaudhari789/OrbitToken.git
 cd OrbitToken
 ```
 
