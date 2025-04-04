@@ -174,7 +174,7 @@ export function TransferForm() {
             mint,
             wallet.publicKey,
             false,
-            TOKEN_2025_PROGRAM_ID
+            TOKEN_2022_PROGRAM_ID
         );
 
         try {
@@ -182,7 +182,7 @@ export function TransferForm() {
                 mint,
                 recipientAddress,
                 false,
-                TOKEN_2025_PROGRAM_ID
+                TOKEN_2022_PROGRAM_ID
             );
 
             try {
@@ -190,7 +190,7 @@ export function TransferForm() {
                     connection,
                     associatedToken,
                     "confirmed",
-                    TOKEN_2025_PROGRAM_ID
+                    TOKEN_2022_PROGRAM_ID
                 );
             } catch (error) {
                 if (
@@ -204,7 +204,7 @@ export function TransferForm() {
                                 associatedToken,
                                 recipientAddress,
                                 mint,
-                                TOKEN_2025_PROGRAM_ID
+                                TOKEN_2022_PROGRAM_ID
                             )
                         );
 
@@ -242,7 +242,7 @@ export function TransferForm() {
                     wallet.publicKey,
                     amountInLamports,
                     [],
-                    TOKEN_2025_PROGRAM_ID
+                    TOKEN_2022_PROGRAM_ID
                 )
             );
 
