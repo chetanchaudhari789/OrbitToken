@@ -55,7 +55,7 @@ export function TransferForm() {
             return {
                 mint,
                 balance,
-                name: metadata?.name || "Unknown Token-25",
+                name: metadata?.name || "Unknown Token-22",
                 symbol: metadata?.symbol || "Coin"
             };
         }));
